@@ -1,0 +1,28 @@
+{
+  "name": "ROS 2 Tello",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "workspaceFolder": "/ros2_ws",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/ros2_ws,type=bind,consistency=cached"
+  ],
+  "postCreateCommand": "bash -c 'source /opt/ros/humble/setup.bash && colcon build --symlink-install'",
+  "remoteUser": "root",
+  "runArgs": [
+    "--network=host",
+    "--privileged",
+    "-e", "DISPLAY=${env:DISPLAY}",
+    "-e", "QT_X11_NO_MITSHM=1",
+    "-e", "LIBGL_ALWAYS_SOFTWARE=1",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-python.python"
+      ]
+    }
+  }
+}
