@@ -258,10 +258,6 @@ ros2 topic echo /detected_objects
 
 Proyecto desarrollado para el control de un dron DJI Tello usando ROS 2, Docker y OpenCV en el contexto de prácticas y proyectos de redes de sensores.
 
-Franklin Josue León Guanoquiza
-Erick Alexander Ramón Chávez
-Carlos Martin Vinces Segovia
-
-```
-
-```
+* Franklin Josue León Guanoquiza
+* Erick Alexander Ramón Chávez
+* Carlos Martin Vinces Segovia
