@@ -251,13 +251,6 @@ ros2 topic echo /detected_objects
 
 ---
 
-## Licencia
-
-Define aquí la licencia de tu proyecto (por ejemplo, MIT, Apache 2.0, GPL, etc.):
-
-```text
-Licencia pendiente de definir.
-```
 
 ---
 
@@ -265,8 +258,10 @@ Licencia pendiente de definir.
 
 Proyecto desarrollado para el control de un dron DJI Tello usando ROS 2, Docker y OpenCV en el contexto de prácticas y proyectos de redes de sensores.
 
-```
 Franklin Josue León Guanoquiza
 Erick Alexander Ramón Chávez
-Carlos Martin Vinces Segovi
+Carlos Martin Vinces Segovia
+
+```
+
 ```
